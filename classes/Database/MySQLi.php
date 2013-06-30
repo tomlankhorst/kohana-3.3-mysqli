@@ -1,10 +1,10 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
 /**
- * MySQLi database connection.
+ * MySQLi database connection. Based on standard MySQL driver.
  *
  * @package    Kohana/Database
  * @category   Drivers
- * @author     Kohana Team
+ * @author     Tom Lankhorst (Webhub)
  * @copyright  (c) 2008-2009 Kohana Team
  * @license    http://kohanaphp.com/license
  */
