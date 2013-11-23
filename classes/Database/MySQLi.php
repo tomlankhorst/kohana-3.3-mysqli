@@ -40,6 +40,8 @@ class Database_MySQLi extends Database {
 			'hostname'   => '',
 			'username'   => '',
 			'password'   => '',
+			'port'       => '',
+			'socket'     => ''
 		));
 
 		// Prevent this information from showing up in traces
@@ -47,7 +49,7 @@ class Database_MySQLi extends Database {
 
 		try
 		{
-			$this->_connection = mysqli_connect($hostname, $username, $password, $database);
+			$this->_connection = mysqli_connect($hostname, $username, $password, $database, $port, $socket);
 		}
 		catch (Exception $e)
 		{
