@@ -1,0 +1,23 @@
+{
+	"name": "tomlankhorst/kohana-3.3-mysqli",
+	"type": "kohana-module",
+	"description": "Kohana 3.3 MySQLi driver.",
+	"homepage": "https://github.com/tomlankhorst/kohana-3.3-mysqli",
+	"license": "BSD-3-Clause",
+	"keywords": ["kohana", "databases", "mysql", "mysqli"],
+	"authors": [
+		{
+			"name": "Tom Lankhorst",
+			"homepage": "http://tomlankhorst.nl/",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"forum": "http://forum.kohanaframework.org",
+		"irc": "irc://irc.freenode.net/kohana",
+		"source": "https://github.com/tomlankhorst/kohana-3.3-mysqli"
+	},
+	"require": {
+		"kohana/database": "v3.3.1"
+	}
+}
