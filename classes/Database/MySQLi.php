@@ -40,7 +40,7 @@ class Database_MySQLi extends Database {
 			'hostname'   => '',
 			'username'   => '',
 			'password'   => '',
-			'port'       => '',
+			'port'       => null,
 			'socket'     => ''
 		));
 
