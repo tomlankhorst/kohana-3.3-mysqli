@@ -59,7 +59,7 @@ class Database_MySQLi_Result extends Database_Result {
 		elseif (is_string($this->_as_object))
 		{
 			// Return an object of given class name
-			return mysqli_fetch_object($this->_result, $this->_as_object, $this->_object_params);
+			return mysqli_fetch_object($this->_result, $this->_as_object);
 		}
 		else
 		{
